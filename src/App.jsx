@@ -13,7 +13,7 @@ function App() {
 
   return (
     <div className="site-shell">
-      <nav className="navbar navbar-expand-lg site-nav sticky-top" aria-label="Main navigation">
+      <nav className="navbar navbar-expand-lg site-nav fixed-top" aria-label="Main navigation">
         <div className="container py-3"><a className="navbar-brand d-flex align-items-center gap-2" href="#home"><span className="brand-mark">Y</span><span>Yousof Alaa</span></a><button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#portfolioNav" aria-controls="portfolioNav" aria-label="Toggle navigation"><span className="navbar-toggler-icon" /></button><div className="collapse navbar-collapse" id="portfolioNav"><div className="navbar-nav ms-auto align-items-lg-center gap-lg-4"><a className="nav-link" href="#about">About</a><a className="nav-link" href="#projects">Projects</a><a className="nav-link" href="#contact">Contact</a><a className="btn btn-sm btn-mint ms-lg-3" href="#contact">Let&apos;s talk <span aria-hidden="true">↗</span></a></div></div></div>
       </nav>
       <main>

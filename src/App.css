@@ -1,7 +1,8 @@
 :root { --ink: #f8fafc; --muted: #94a3b8; --paper: #0F172A; --panel: #17233b; --blue: #38bdf8; --mint: #bef264; --lilac: #a5b4fc; --peach: #fb7185; --line: #293753; }
 body { background: var(--paper); color: var(--ink); }
 .site-shell { min-height: 100vh; overflow: hidden; background: var(--paper); }
-.site-nav { background: rgba(15,23,42,.9); border-bottom: 1px solid var(--line); backdrop-filter: blur(12px); }
+.site-shell main { padding-top: 90px; }
+.site-nav { position: fixed; top: 0; left: 0; right: 0; z-index: 1030; background: rgba(15,23,42,.9); border-bottom: 1px solid var(--line); backdrop-filter: blur(12px); }
 .navbar-brand { color: var(--ink); font-weight: 800; letter-spacing: -.03em; }.navbar-brand:hover, .nav-link:hover, a:hover { color: var(--mint); }
 .brand-mark { display: grid; width: 34px; height: 34px; place-items: center; color: var(--paper); background: var(--mint); border-radius: 50%; font-size: 18px; font-style: italic; }.nav-link { color: #cbd5e1; font-size: .8rem; font-weight: 800; text-transform: uppercase; }.navbar-toggler { border-color: var(--line); }.navbar-toggler-icon { filter: invert(1); }
 .btn { border: 0; border-radius: 999px; font-weight: 800; }.btn-mint { color: var(--paper); background: var(--mint); }.btn-mint:hover { color: var(--paper); background: #d9fb88; }.btn-lilac { color: var(--paper); background: var(--lilac); }.btn-lilac:hover { color: var(--paper); background: #c2caff; transform: translateY(-2px); }.btn-link { color: var(--ink); }
