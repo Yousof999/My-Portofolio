@@ -3,12 +3,14 @@ import './App.css'
 import StoreImg from './Images/Store.png'
 import RecipesImg from './Images/Recipes.png'
 import DashboardImg from './Images/Dashboard.png'
+import WorkwiseImg from './Images/Professional Social Network & Job Portal.png'
 import emailjs from '@emailjs/browser'
 
 const projects = [
   { number: '01', title: 'Products Store', description: 'A polished shopping experience with clear browsing and a focused product journey.', detail: 'Built for easy product discovery, category browsing, and a clean checkout flow.', tags: ['React', 'CSS'], tone: 'peach', url: 'https://store-ivory-nine.vercel.app/', image: StoreImg },
   { number: '02', title: 'Recipes Store', description: 'A friendly recipe collection designed to make discovering your next meal simple.', detail: 'Focused on quick recipe exploration, card-based layouts, and a warm visual identity.', tags: ['JavaScript', 'Bootstrap'], tone: 'mint', url: 'https://recipes-beta-dun.vercel.app/', image: RecipesImg },
   { number: '03', title: 'Dashboard', description: 'A focused analytics dashboard for teams that want to see the signal quickly.', detail: 'Designed around key KPIs, clear visual hierarchy, and fast data scanning for decision-making.', tags: ['React', 'JavaScript'], tone: 'lilac', url: 'https://dashboard-alpha-one-76.vercel.app/', image: DashboardImg },
+  { number: '04', title: 'Professional Social Network & Job Portal', description: 'Workwise — A professional social network and job portal built with React, featuring a user profile, job posts, suggested connections, and Top Jobs and Top Profiles sections.', detail: 'Built with React Router for navigation and localStorage to persist user data, with modular and reusable UI components.', tags: ['React', 'React Router', 'LocalStorage'], tone: 'peach', url: 'https://social-media-brown-nine.vercel.app/', image: WorkwiseImg, },
 ]
 
 function App() {
